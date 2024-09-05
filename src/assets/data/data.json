@@ -1,136 +1,30 @@
-{
-    "bookmarks": [
+[
+  {
+    "title": "首页",
+    "link": "/",
+    "children": [
       {
-        "name": "工作",
-        "url": "https://www.example.com/work",
-        "icon": "https://www.example.com/work-icon.png",
-        "description": "我的工作网站",
+        "title": "新闻",
+        "link": "/news",
         "children": [
           {
-            "name": "项目管理",
-            "url": "https://www.example.com/project-management",
-            "icon": "https://www.example.com/project-management-icon.png",
-            "description": "项目管理工具",
-            "children": [
-              {
-                "name": "Jira",
-                "url": "https://jira.example.com",
-                "icon": "https://www.example.com/jira-icon.png",
-                "description": "Jira 项目管理系统"
-              },
-              {
-                "name": "Trello",
-                "url": "https://trello.com/example",
-                "icon": "https://www.example.com/trello-icon.png",
-                "description": "Trello 任务管理板"
-              },
-              {
-                "name": "Asana",
-                "url": "https://asana.com/example",
-                "icon": "https://www.example.com/asana-icon.png",
-                "description": "Asana 项目管理工具"
-              }
-            ]
+            "title": "国内新闻",
+            "link": "/news/domestic"
           },
           {
-            "name": "文档",
-            "url": "https://www.example.com/docs",
-            "icon": "https://www.example.com/docs-icon.png",
-            "description": "工作文档库"
-          },
-          {
-            "name": "代码",
-            "url": "https://www.example.com/code",
-            "icon": "https://www.example.com/code-icon.png",
-            "description": "代码仓库",
-            "children": [
-              {
-                "name": "GitHub",
-                "url": "https://github.com/example",
-                "icon": "https://www.example.com/github-icon.png",
-                "description": "GitHub 代码仓库"
-              },
-              {
-                "name": "GitLab",
-                "url": "https://gitlab.com/example",
-                "icon": "https://www.example.com/gitlab-icon.png",
-                "description": "GitLab 代码仓库"
-              }
-            ]
+            "title": "国际新闻",
+            "link": "/news/international"
           }
         ]
       },
       {
-        "name": "学习",
-        "url": "https://www.example.com/learning",
-        "icon": "https://www.example.com/learning-icon.png",
-        "description": "学习网站",
-        "children": [
-          {
-            "name": "在线课程",
-            "url": "https://www.example.com/online-courses",
-            "icon": "https://www.example.com/online-courses-icon.png",
-            "description": "在线课程平台"
-          },
-          {
-            "name": "技术文档",
-            "url": "https://www.example.com/technical-docs",
-            "icon": "https://www.example.com/technical-docs-icon.png",
-            "description": "技术文档网站"
-          }
-        ]
-      },
-      {
-        "name": "娱乐",
-        "url": "https://www.example.com/entertainment",
-        "icon": "https://www.example.com/entertainment-icon.png",
-        "description": "娱乐网站",
-        "children": [
-          {
-            "name": "电影",
-            "url": "https://www.example.com/movies",
-            "icon": "https://www.example.com/movies-icon.png",
-            "description": "电影网站"
-          },
-          {
-            "name": "音乐",
-            "url": "https://www.example.com/music",
-            "icon": "https://www.example.com/music-icon.png",
-            "description": "音乐网站"
-          },
-          {
-            "name": "游戏",
-            "url": "https://www.example.com/games",
-            "icon": "https://www.example.com/games-icon.png",
-            "description": "游戏网站"
-          }
-        ]
-      },
-      {
-        "name": "社交",
-        "url": "https://www.example.com/social",
-        "icon": "https://www.example.com/social-icon.png",
-        "description": "社交网站",
-        "children": [
-          {
-            "name": "Facebook",
-            "url": "https://www.facebook.com",
-            "icon": "https://www.example.com/facebook-icon.png",
-            "description": "Facebook 社交网络"
-          },
-          {
-            "name": "Twitter",
-            "url": "https://www.twitter.com",
-            "icon": "https://www.example.com/twitter-icon.png",
-            "description": "Twitter 社交网络"
-          },
-          {
-            "name": "Instagram",
-            "url": "https://www.instagram.com",
-            "icon": "https://www.example.com/instagram-icon.png",
-            "description": "Instagram 社交网络"
-          }
-        ]
+        "title": "产品",
+        "link": "/products"
       }
     ]
+  },
+  {
+    "title": "关于我们",
+    "link": "/about"
   }
+]
