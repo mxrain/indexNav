@@ -1,6 +1,6 @@
 <script setup>
 import { ref,onMounted } from 'vue'
-
+import BookmarkItem from '@/components/BookmarkItem.vue'; // 导入 BookmarkItem 组件
 const data = ref([])
 onMounted(async ()=>{
   const res = await fetch(
@@ -12,6 +12,6 @@ onMounted(async ()=>{
 
 <template>
   <main>
-    {{data}}
+    <BookmarkItem :bookmarks="data" />
   </main>
 </template>
